@@ -2,7 +2,7 @@
 docsフォルダには講義資料を放り込んでます。
 下記のURLでは定着確認の問題を出題するシステムを構築してます。自由に利用してください。
 
-https://example.com
+https://omuct-24s-icourse.github.io/Information3-Studying-assistant/
 
 ## 定着確認データについて
 〇〇(講義ノートの番号).jsonというファイルに、下記の形式で記してください。
