@@ -1,7 +1,11 @@
 const sources = [
   { id: "01", label: "01.json", file: "data/01.json" },
   { id: "02", label: "02.json", file: "data/02.json" },
-  { id: "03", label: "03.json", file: "data/03.json" }
+  { id: "03", label: "03.json", file: "data/03.json" },
+  { id: "04", label: "04.json", file: "data/04.json" },
+  { id: "05", label: "05.json", file: "data/05.json" },
+  { id: "06", label: "06.json", file: "data/06.json" },
+  { id: "07", label: "07.json", file: "data/07.json" }
 ];
 
 const state = {
