@@ -24,6 +24,8 @@ const elements = {
   questionTag: document.getElementById("questionTag"),
   questionSource: document.getElementById("questionSource"),
   questionText: document.getElementById("questionText"),
+  questionImageBlock: document.getElementById("questionImageBlock"),
+  questionImage: document.getElementById("questionImage"),
   choicesBlock: document.getElementById("choicesBlock"),
   choicesList: document.getElementById("choicesList"),
   answerBlock: document.getElementById("answerBlock"),
@@ -137,6 +139,7 @@ function buildItem(entry, index, source, meta) {
   const choices = normalizeChoiceList(entry?.choices ?? entry?.options);
   const answer = normalizeAnswer(entry?.answer);
   const type = normalizeText(entry?.type) || (choices.length > 0 ? "single" : "short");
+  const image = normalizeText(entry?.image);
   const note = normalizeText(entry?.note);
   const tags = normalizeStringArray(entry?.tags);
   const idBase = meta?.id || source.id;
@@ -151,6 +154,7 @@ function buildItem(entry, index, source, meta) {
     choices,
     answer,
     type,
+    image,
     note,
     tags
   };
@@ -296,6 +300,15 @@ function renderQuestion(item) {
   elements.questionTag.textContent = item.id || `Q${item.no}`;
   elements.questionSource.textContent = item.sourceTitle || item.sourceLabel;
   elements.questionText.textContent = item.prompt;
+  if (item.image) {
+    elements.questionImage.src = item.image;
+    elements.questionImage.alt = `${item.id || `Q${item.no}`} の図`;
+    elements.questionImageBlock.classList.remove("hidden");
+  } else {
+    elements.questionImage.removeAttribute("src");
+    elements.questionImage.alt = "";
+    elements.questionImageBlock.classList.add("hidden");
+  }
   renderQuestionMeta(item);
 
   elements.choicesList.innerHTML = "";
