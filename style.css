@@ -214,6 +214,19 @@ button.ghost:hover:not(:disabled) {
   line-height: 1.6;
 }
 
+.question-image {
+  margin: 0 0 18px;
+}
+
+.question-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
 .question-meta {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "id": "06",
+    "title": "Wordの高度な利用、OneDriveと連携した共同編集",
+    "description": "",
+    "version": 1
+  },
+  "questions": [
+    {
+      "id": "06-190",
+      "prompt": "日本語入力／変換の文脈で IME とは何の略語か英語で答えよ。",
+      "type": "short",
+      "answer": { "text": "Input Method Editor" }
+    },
+    {
+      "id": "06-191",
+      "prompt": "次に示すもののうち IME（Input Method Editor）に該当しないものはどれか。該当しないものすべてを記号で答えよ。",
+      "type": "multi",
+      "choices": [
+        { "id": "A", "text": "Google 日本語入力" },
+        { "id": "B", "text": "ATOK" },
+        { "id": "C", "text": "Microsoft IME" },
+        { "id": "D", "text": "Copilot Keyboard" },
+        { "id": "E", "text": "Claude" },
+        { "id": "F", "text": "Google Lens" },
+        { "id": "G", "text": "AquaVoice" }
+      ],
+      "answer": { "choices": ["E", "F", "G"] }
+    },
+    {
+      "id": "06-192",
+      "prompt": "日本において 1990 年代まで広く使われていたワープロソフトの名称はどれか。最も適切なものを記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "新太郎" },
+        { "id": "B", "text": "進次郎" },
+        { "id": "C", "text": "一太郎" },
+        { "id": "D", "text": "ATOK" },
+        { "id": "E", "text": "花子" },
+        { "id": "F", "text": "松" },
+        { "id": "G", "text": "桐" }
+      ],
+      "answer": { "choices": ["C"] }
+    },
+    {
+      "id": "06-193",
+      "prompt": "WYSIWYG の一般的な「読み」をカタカナ 6 文字で答えよ。",
+      "type": "short",
+      "answer": { "text": "ウィジウィグ" }
+    },
+    {
+      "id": "06-194",
+      "prompt": "WYSIWYG は何の頭文字をとった略語か。最も適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "What You See Is What You Get" },
+        { "id": "B", "text": "Why You See Is Why You Go" },
+        { "id": "C", "text": "What You Seek Is What You Get" },
+        { "id": "D", "text": "What You See Is Where You Go" }
+      ],
+      "answer": { "choices": ["A"] }
+    },
+    {
+      "id": "06-195",
+      "prompt": "印刷技術の文脈において「DTP」とは何か。最も適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "印刷会社が専用の大型設備を使って行う印刷物制作の工程全体のこと" },
+        { "id": "B", "text": "パソコンと専用ソフトウェアを用いて、個人レベルで紙面の編集・レイアウトを行う出版手法のこと" },
+        { "id": "C", "text": "プログラミングにより印刷用データをコードで記述する作業手法のこと" },
+        { "id": "D", "text": "インターネット上でウェブページを作成・公開するための一連の技術・作業のこと" }
+      ],
+      "answer": { "choices": ["B"] }
+    },
+    {
+      "id": "06-196",
+      "prompt": "LaTeX の一般的な「読み」を答えよ（ただし、ラテックを除く）。",
+      "type": "short",
+      "answer": { "text": "ラテフ" }
+    },
+    {
+      "id": "06-197",
+      "prompt": "次のソフトウェアのうち WYSIWYG に非対応なものはどれか。最も適切なものを答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "Microsoft Word" },
+        { "id": "B", "text": "Google ドキュメント" },
+        { "id": "C", "text": "LaTeX" },
+        { "id": "D", "text": "PowerPoint" },
+        { "id": "E", "text": "Canva" }
+      ],
+      "answer": { "choices": ["C"] }
+    },
+    {
+      "id": "06-198",
+      "prompt": "次のうちウェブでの学術的な文書や教育コンテンツの公開において、LaTeX 形式による数式記述を可能にする JavaScript ライブラリはどれか。最も適切なものを答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "jQuery" },
+        { "id": "B", "text": "ReactJS" },
+        { "id": "C", "text": "MathML" },
+        { "id": "D", "text": "MathJax" },
+        { "id": "E", "text": "Mathematica" },
+        { "id": "F", "text": "Wolfram" }
+      ],
+      "answer": { "choices": ["D"] }
+    },
+    {
+      "id": "06-199",
+      "prompt": "Markdown ファイルの標準的な拡張子を、先頭のドットを含め答えよ。",
+      "type": "short",
+      "answer": { "text": ".md" }
+    },
+    {
+      "id": "06-200",
+      "prompt": "Markdown 形式のファイルは「テキストファイル」と「バイナリファイル」のどちらに該当するか答えよ。",
+      "type": "short",
+      "answer": { "text": "テキストファイル" }
+    },
+    {
+      "id": "06-201",
+      "prompt": "Markdown 記法において、太字（強調）を表現するための記法として適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "*強調*" },
+        { "id": "B", "text": "**強調**" },
+        { "id": "C", "text": "<b>強調<b>" },
+        { "id": "D", "text": "¥textbf{強調}" },
+        { "id": "E", "text": "#強調#" }
+      ],
+      "answer": { "choices": ["B"] }
+    },
+    {
+      "id": "06-202",
+      "prompt": "Markdown 記法において、見出しを表現するための記法として適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "# 見出し" },
+        { "id": "B", "text": "> 見出し" },
+        { "id": "C", "text": "<h1>見出し</h1>" },
+        { "id": "D", "text": "@ 見出し" },
+        { "id": "E", "text": "¥section{見出し}" }
+      ],
+      "answer": { "choices": ["A"] }
+    },
+    {
+      "id": "06-203",
+      "prompt": "Markdown 記法において、ブロック引用（引用文）を表現するための記法として適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "+ 引用文" },
+        { "id": "B", "text": "- 引用文" },
+        { "id": "C", "text": "* 引用文" },
+        { "id": "D", "text": "> 引用文" },
+        { "id": "E", "text": "= 引用文" }
+      ],
+      "answer": { "choices": ["D"] }
+    },
+    {
+      "id": "06-204",
+      "prompt": "Microsoft Word において、フォント設定ダイアログを呼び出すためのショートカットキーは、どれか。適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "Ctrl+F" },
+        { "id": "B", "text": "Ctrl+D" },
+        { "id": "C", "text": "Ctrl+X" },
+        { "id": "D", "text": "Ctrl+R" },
+        { "id": "E", "text": "Ctrl+L" }
+      ],
+      "answer": { "choices": ["B"] }
+    },
+    {
+      "id": "06-205",
+      "prompt": "Microsoft Word において、文字数のカウント機能を呼び出すためのショートカットキーは、どれか。適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "Ctrl+Shift+G" },
+        { "id": "B", "text": "Ctrl+Shift+N" },
+        { "id": "C", "text": "Ctrl+Shift+C" },
+        { "id": "D", "text": "Ctrl+Shift+P" }
+      ],
+      "answer": { "choices": ["A"] }
+    },
+    {
+      "id": "06-206",
+      "prompt": "文章作成の文脈において「字下げ」を意味する語はどれか。最も適切なものを記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "タブ" },
+        { "id": "B", "text": "インデント" },
+        { "id": "C", "text": "アウトライン" },
+        { "id": "D", "text": "アンダースコア" },
+        { "id": "E", "text": "ハイフネーション" }
+      ],
+      "answer": { "choices": ["B"] }
+    },
+    {
+      "id": "06-207",
+      "prompt": "Microsoft Word において、任意の文字列に対してハイパーリンクを挿入するためのダイアログを起動するショートカットキーは、どれか。適切なものを 1 つ選び、記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "Ctrl+H" },
+        { "id": "B", "text": "Ctrl+L" },
+        { "id": "C", "text": "Ctrl+I" },
+        { "id": "D", "text": "Ctrl+N" },
+        { "id": "E", "text": "Ctrl+K" }
+      ],
+      "answer": { "choices": ["E"] }
+    },
+    {
+      "id": "06-208",
+      "prompt": "次のフォントのうち「サンセリフ体」はどれか、該当するものをすべて記号で答えよ。また、「プロポーショナルフォント」はどれか、該当するものをすべて記号で答えよ。(上からA,B,C,D)",
+      "type": "short",
+      "image": "docs/image/06-208.png",
+      "answer": { "text": "サンセリフ体：B, D、プロポーショナルフォント：C, D" }
+    },
+    {
+      "id": "06-209",
+      "prompt": "指導教員から Word の「変更履歴」の機能を使って報告書の添削を受けた。添削前の報告書を表示したい場合、変更履歴の「変更内容の表示」からどのモードを選ぶべきか。最も適切なものを記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "シンプルな変更履歴／コメント" },
+        { "id": "B", "text": "すべての変更履歴／コメント" },
+        { "id": "C", "text": "変更履歴／コメントなし" },
+        { "id": "D", "text": "初版" }
+      ],
+      "answer": { "choices": ["D"] }
+    },
+    {
+      "id": "06-210",
+      "prompt": "指導教員から Word の「変更履歴」の機能を使って報告書の添削を受けた。添削後の報告書（教員による添削を完全に反映した報告書）を表示したい場合、変更履歴の「変更内容の表示」からどのモードを選ぶべきか。ただし、添削を受けた部分は把握したいものとする。最も適切なものを記号で答えよ。",
+      "type": "single",
+      "choices": [
+        { "id": "A", "text": "シンプルな変更履歴／コメント" },
+        { "id": "B", "text": "すべての変更履歴／コメント" },
+        { "id": "C", "text": "変更履歴／コメントなし" },
+        { "id": "D", "text": "初版" }
+      ],
+      "answer": { "choices": ["A"] }
+    }
+  ]
+}
